@@ -90,15 +90,9 @@ class Account {
     }
 
     public void withdraw(double amount) {
-        if (balance >= amount) 
-        {
-            System.out.println("Enter yor upiPin");
-            upiPin = sc.nextInt();
-            if (upiPin==uupi) 
-            {
-              balance = balance - amount;
-            System.out.println("Amount withdrawn successfully. Updated balance: " + balance);   
-            }
+        if (balance >= amount) {
+            balance = balance - amount;
+            System.out.println("Amount withdrawn successfully. Updated balance: " + balance);
         } 
         else 
         {
