@@ -23,13 +23,13 @@ public void dislpayCamera()
 System.out.println();
 System.out.println("*****Camera Details*****");
 System.out.println();
-System.out.println("Camera Brand : "+ brand);
-System.out.println("Camera model : "+ model);
-System.out.println("Camera series : " + series);
-System.out.println("Camera type : " + type);
-System.out.println("Camera effectivePixels : "+ effectivePixels + "mp");
-System.out.println("Camera price : "+ price + "rs");
-System.out.println("Camera shutterSpeed : " + shutterSpeed + "sec");
+System.out.println("Camera Brand : "+this.brand);
+System.out.println("Camera model : "+ this.model);
+System.out.println("Camera series : " + this.series);
+System.out.println("Camera type : " + this.type);
+System.out.println("Camera effectivePixels : "+ this.effectivePixels + "mp");
+System.out.println("Camera price : "+ this.price + "rs");
+System.out.println("Camera shutterSpeed : " + this.shutterSpeed + "sec");
 }
 }
 class Lens
@@ -60,15 +60,15 @@ class Lens
   System.out.println();
   System.out.println("**** Lens Details  ****");
   System.out.println();
-  System.out.println("Lens Brand : " + brand);
-  System.out.println("Lens model : " + model);
-  System.out.println("LensType : "+ lensType);
-  System.out.println("Lens Price : " + price);
-  System.out.println("Lens suitableFor : "+ suitableFor);
-  System.out.println("Lens MaxFocalLenght : "+ maxFocalLenght + "mm");
-  System.out.println("Lens ApertureWithFocalLength : "+ apertureWithFocalLength + "mm");
-  System.out.println("Lens WaterResistant : "+ waterResistant);
-  System.out.println("Lens Weight : "+ weight + "g");
+  System.out.println("Lens Brand : " + this.brand);
+  System.out.println("Lens model : " + this.model);
+  System.out.println("LensType : "+ this.lensType);
+  System.out.println("Lens Price : " + this.price);
+  System.out.println("Lens suitableFor : "+ this.suitableFor);
+  System.out.println("Lens MaxFocalLenght : "+ this.maxFocalLenght + "mm");
+  System.out.println("Lens ApertureWithFocalLength : "+ this.apertureWithFocalLength + "mm");
+  System.out.println("Lens WaterResistant : "+ this.waterResistant);
+  System.out.println("Lens Weight : "+ this.weight + "g");
  }
 }
 class CompositionCamera
